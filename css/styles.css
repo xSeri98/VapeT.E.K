@@ -1,0 +1,131 @@
+/*
+font-family: 'Oswald', sans-serif;
+*/
+
+
+body{
+    background-color: #ff7675;
+    margin: auto;
+}
+
+
+
+#footer{
+    background-color: #ff7675;
+    background: linear-gradient(to top, #52595b, #2d3436);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#footer ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+#footer ul li{
+    padding: 10px;
+}
+
+#footer ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 35px;
+}
+
+#footer p{
+    margin: 0;
+}
+
+#store-location{
+    background: linear-gradient(to bottom, #52595b, #2d3436);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+#store-location h1{
+   font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 700px;
+    font-size: 50px;
+    color: #ecf0f1;
+   
+}
+
+#map-responsive{
+    width: 80%;
+}
+
+#map-responsive iframe{
+    border-radius: 10px;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#box{
+    width: 350px;
+    height: 500px;
+    background: linear-gradient(to top, #fcfcfc, #ecf0f1);
+    border-radius: 10px;
+    box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+}
+
+#prod{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: left;
+}
+
+#prod h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: azure;
+  
+}
+
+#box h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+  
+}
+
+#details p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#line{
+    border-bottom: 2px solid #95a5a6;
+}
+
+
+ 
