@@ -116,15 +116,29 @@ body{
     font-weight: 300;
     font-size: 30px;
     color: rgb(0, 0, 0);
+    text-align: center;
   
+}
+
+#details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #details p{
     font-family: 'Josefin Sans', sans-serif;
+    margin-top: 0;
+    text-align: center;
 }
 
-#line{
-    border-bottom: 2px solid #95a5a6;
+
+#main-model{
+    height: 250px;
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 
