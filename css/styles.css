@@ -209,6 +209,46 @@ body{
     border-radius: 10px;
 }
 
+#about-disposable{
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#about-disposable-heading{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-size: 50px;
+    color: azure;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#about-disposable-content{
+    width: auto;
+    height: auto;
+}
+
+#about-disposable-content p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 30px;
+    text-align: center;
+    margin: 0%;
+    color: #ecf0f1;
+    background-color: rgba(0, 0, 0, .25);
+    border-radius: 10px;
+}
+
+#toha-yakult-image{
+    
+    width: 100%;
+    height: 50%;
+}
+
 
  @media (max-width: 768px) {
    #store-location h1{
@@ -263,4 +303,26 @@ body{
         #product-box h2{
             font-size: 13px;
         }
+        #toha-yakult-image{
+         
+            width: 50%;
+            height: 50%;
+        }
+
+        #about-disposable-content p{
+            font-size: 20px;
+        }
+
+        #about-disposable-heading{
+            text-align: center;
+           }
+       
+}
+
+@media (max-width: 425px) {
+    #about-disposable{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
