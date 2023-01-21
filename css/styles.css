@@ -316,6 +316,25 @@ body{
     display: none;
 }
 
+#warning{
+    width: 100%;
+    background: linear-gradient(to top, #52595b, #2d3436);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-bottom: #fcfcfc 1px solid;
+}
+
+#warning p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 10px;
+    color: white;
+}
+
 
 @media (hover :hover){
     #nav-list li a:hover{
@@ -401,6 +420,8 @@ body{
        
 }
 
+
+
 @media (max-width: 569px){
 
     #navigation{
@@ -411,7 +432,7 @@ body{
     .checkbtn{
         display: block;
         position: absolute;
-        top: 12px;
+        top: 50px;
         right: 0;
         transform: translate(-100%, 60%);
         font-size: 30px;
@@ -437,7 +458,7 @@ body{
 
     #check:checked ~ #nav-list{
         z-index: 100;
-        transform: translateY(40%);   
+        transform: translateY(57%);   
     }
 
     
