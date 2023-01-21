@@ -2,6 +2,9 @@
 font-family: 'Oswald', sans-serif;
 */
 
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #ff7675;
@@ -262,6 +265,56 @@ body{
     height: auto;
 }
 
+#navigation{
+    background: linear-gradient(to bottom, #52595b, #2d3436);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#nav-list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    margin:0% ;
+}
+
+#nav-list li{
+    padding: 10px;
+    margin: 10px;
+}
+
+#nav-list li a{
+    text-decoration: none;
+    color: azure;
+    font-family: 'Josefin Sans', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+@media (hover :hover){
+    #nav-list li a:hover{
+        color: #ffe659;
+        transition: 1s;
+    }
+}
+
 @media (max-width: 920px){
     #product-box{
     width: 300px;
@@ -339,15 +392,39 @@ body{
        
 }
 
+@media (max-width: 569px){
+
+    #navigation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #nav-list{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #about-disposable-heading{
+        font-size: 30px;
+       }
+
+       #product-heading{
+           font-size: 30px;
+       }
+
+       #prod-top{
+           font-size: 30px;
+       }
+}
+
 @media (max-width: 550px){
     #product-box{
     width: 200px;
     height: 300px;
     }
 
-    #banner{
-        height: 200px;
-    }
+  
 }
 
 @media (max-width: 500px){
