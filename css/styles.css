@@ -432,9 +432,7 @@ body{
        right: 0;
        z-index: -1;
        background: linear-gradient(to bottom, #52595b, #2d3436);        
-       transform: translateX(1000%);
-       
-       transition:all 0.5s ease-in-out;
+       transition:all 0s ease-in-out;
     }
 
     #check:checked ~ #nav-list{
