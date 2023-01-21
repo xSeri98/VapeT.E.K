@@ -308,6 +308,15 @@ body{
     height: 100%;
 }
 
+#check{
+    display: none;
+}
+
+.checkbtn{
+    display: none;
+}
+
+
 @media (hover :hover){
     #nav-list li a:hover{
         color: #ffe659;
@@ -395,16 +404,47 @@ body{
 @media (max-width: 569px){
 
     #navigation{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
+      
     }
 
-    #nav-list{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    .checkbtn{
+        display: block;
+        position: absolute;
+        top: 12px;
+        right: 0;
+        transform: translate(-100%, 60%);
+        font-size: 30px;
+        cursor: pointer;
+        color: azure;
     }
+
+   
+
+    
+    #nav-list{
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       width: 100%;
+       position: absolute;
+       top: 0;
+       right: 0;
+       z-index: -1;
+       background: linear-gradient(to bottom, #52595b, #2d3436);        
+       transform: translateX(1000%);
+       
+       transition:all 0.5s ease-in-out;
+    }
+
+    #check:checked ~ #nav-list{
+        z-index: 100;
+        transform: translateY(40%);   
+    }
+
+    
+
+
     #about-disposable-heading{
         font-size: 30px;
        }
