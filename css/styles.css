@@ -249,6 +249,19 @@ body{
     height: 50%;
 }
 
+#banner{
+    width: 100%;
+    display: flex;
+    justify-content : center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#banner-img{
+    width: 100%;
+    height: auto;
+}
+
 @media (max-width: 920px){
     #product-box{
     width: 300px;
@@ -330,6 +343,10 @@ body{
     #product-box{
     width: 200px;
     height: 300px;
+    }
+
+    #banner{
+        height: 200px;
     }
 }
 

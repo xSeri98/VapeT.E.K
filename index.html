@@ -15,6 +15,19 @@
     <title>Vape T.E.K | Tasty Disposable Puffs at Good Prices in Manila</title>
 </head>
 <body>
+    <div id="banner">
+        <ul id="imageGallery" >
+            <li data-thumb="./rsc/1.png" data-src="./rsc/1.png">
+                <img src="./rsc/1.png" id="banner-img">
+              </li>
+              <li data-thumb="./rsc/2.png" data-src="./rsc/2.png">
+                <img src="./rsc/2.png" id="banner-img">
+              </li>
+              <li data-thumb="./rsc/3.png" data-src="./rsc/.png">
+                <img src="./rsc/3.png" id="banner-img">
+              </li>
+       </ul>
+    </div>
     <h1 id="about-disposable-heading">What are disposable vapes?</h1>
     <div id="about-disposable">
         <section id="about-disposable-content"><p>Disposable vapes are electronic cigarette devices that are designed to be used once and then thrown away. 
@@ -147,5 +160,25 @@
         <p>&copy; 2023 Vape T.E.K. All Rights Reserved.</p>
     </footer>
     <script src="./script/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+    $('#imageGallery').lightSlider({
+        gallery:false,
+        item:1,
+        loop:true,
+        thumbItem:9,
+        slideMargin:0,
+        auto:true,
+        pause: 5000,
+        enableDrag: false,
+        currentPagerPosition:'left',
+        onSliderLoad: function(el) {
+            el.lightGallery({
+                selector: '#imageGallery .lslide'
+            });
+        }   
+    });  
+  });
+      </script>
 </body>
 </html>
