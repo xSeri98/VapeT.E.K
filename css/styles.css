@@ -249,6 +249,13 @@ body{
     height: 50%;
 }
 
+@media (max-width: 920px){
+    #product-box{
+    width: 300px;
+    height: 300px;
+    }
+}
+
 
  @media (max-width: 768px) {
    #store-location h1{
@@ -318,6 +325,21 @@ body{
            }
        
 }
+
+@media (max-width: 550px){
+    #product-box{
+    width: 200px;
+    height: 300px;
+    }
+}
+
+@media (max-width: 500px){
+    #product-box{
+        width: 130px;
+        height: 200px;
+    }
+}
+
 
 @media (max-width: 425px) {
     #about-disposable{
