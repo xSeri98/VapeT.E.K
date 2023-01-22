@@ -9,61 +9,163 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,700&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/lightslider.css"/> 
+    <link rel="shortcut icon" type="image/png" href="./rsc/favicon.webp"/>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./script/lightslider.js"></script>
     <script src="https://kit.fontawesome.com/0a80b60327.js" crossorigin="anonymous"></script>
     <title>Vape T.E.K | Tasty Disposable Puffs at Good Prices in Manila</title>
 </head>
 <body>
-    <div id="prod">
-       <h1>Products</h1>
+    <div id="warning">
+        <p>WARNING: This product contains nicotine. Nicotine is an addictive chemical.
+            Only for adults. Anyone below the age of 21 is prohibited from buying e-cigarette.</p>
+    </div> 
+    <nav id="navigation">
+        <div id="logo">
+            <a href="./index.html"><img src="./rsc/logo.webp" id="logo-img"></a>
+        </div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn"><i class="fas fa-bars" style="color: white;font-size: 30px;"></i></label>
+        <ul id="nav-list">
+            
+            <li><a href="#about-disposable-heading" id="nav-link">FAQs</a></li>
+            <li><a href="#product-heading" id="nav-link">Products</a></li>
+            <li><a href="#prod-top" id="nav-link">Best Sellers</a></li>
+            <li><a href="#store-location" id="nav-link">Contact us</a></li>
+        </ul>
+    </nav>
+    <div id="banner">
+        <ul id="imageGallery" >
+            <li >
+                <img src="./rsc/1.webp" id="banner-img">
+              </li>
+              <li >
+                <img src="./rsc/2.webp" id="banner-img">
+              </li>
+              <li >
+                <img src="./rsc/3.webp" id="banner-img">
+              </li>
+              <li>
+                <img src="./rsc/4.webp" id="banner-img">
+              </li>
+       </ul>
     </div>
+    <h1 id="about-disposable-heading">What are disposable vapes?</h1>
+    <div id="about-disposable">
+        <section id="about-disposable-content"><p>Disposable vapes are electronic cigarette devices that are designed to be used once and then thrown away. 
+            They are pre-filled with e-liquid and typically come in a variety of flavors. 
+            They are easy to use and do not require any maintenance or refilling. 
+            They are also compact and convenient to carry around, making them popular among vapers. 
+            They are also known as "pod mods" or "closed-system vapes". 
+            They are a type of vape device that is a good alternative for smokers who want to try vaping without committing to the costs and maintenance of a reusable device.</p></section>
+     <img src="./rsc/toha-yakult-about.webp" id="toha-yakult-image">
+    </div>
+    <h1 id="product-heading">Puff List</h1>
+    <div id="main-product-list">
+        <ul id="product-list">
+            <li><div id="product-box"><h1>Flava Orange Yacult (7K Puffs)</h1>
+                <img src="./rsc/Flava-orange-yakult.webp" id="prod-model">
+                <h2>Price: PHP450<br>(Contains Nicotine)</h2>
+                </div></li>
+                <li><div id="product-box"><h1>Toha Orange Yacult (10K Puffs)</h1>
+                    <img src="./rsc/Toha-drinkbar-orange-yakult.webp" id="prod-model">
+                    <h2>Price: PHP400<br>(Contains Nicotine)</h2>
+                    </div></li>
+                    <li><div id="product-box"><h1>Toha Drinkbar Watermelon Ice (6K Puffs)</h1>
+                        <img src="./rsc/Toha-drinkbar-watermelon-ce.webp" id="prod-model">
+                        <h2>Price: PHP300<br>(Contains Nicotine)</h2>
+                        </div></li>
+                        <li><div id="product-box"><h1>Zetta Gummy Bear (5K Puffs)</h1>
+                            <img src="./rsc/wotofo-zetta-gummy-bear-1.webp" id="prod-model">
+                            <h2>Price: PHP300<br>(Contains Nicotine)</h2>
+                            </div></li>     
+        </ul>
+        <ul id="product-list">
+            <li><div id="product-box"><h1>IQ Watermelon (3K Puffs)</h1>
+                <img src="./rsc/iq-3k-watermelon.webp" id="prod-model">
+                <h2>Price: PHP200<br>(Contains Nicotine)</h2>
+                </div></li>
+                <li><div id="product-box"><h1>IQ Bubble Gum (3K Puffs)</h1>
+                    <img src="./rsc/iq-3k-bubble-gum.webp" id="prod-model">
+                    <h2>Price: PHP200<br>(Contains Nicotine)</h2>
+                    </div></li>
+                    <li><div id="product-box"><h1>Zetta Grape Ice (5K Puffs)</h1>
+                        <img src="./rsc/wotofo-zetta-grape-ice.webp" id="prod-model">
+                        <h2>Price: PHP300<br>(Contains Nicotine)</h2>
+                        </div></li>
+                        <li><div id="product-box"><h1>Zetta Strawberry Rum (5K Puffs)</h1>
+                            <img src="./rsc/wotofo-zetta-strawberry-rum.webp" id="prod-model">
+                            <h2>Price: PHP300<br>(Contains Nicotine)</h2>
+                            </div></li>     
+        </ul>
+        <ul id="product-list">
+            <li><div id="product-box"><h1>IQ Mango Grapes (3K Puffs)</h1>
+                <img src="./rsc/iq-3k-mango-grapes.webp" id="prod-model">
+                <h2>Price: PHP200<br>(Contains Nicotine)</h2>
+                </div></li>
+                <li><div id="product-box"><h1>IQ Bubble Gum (3K Puffs)</h1>
+                    <img src="./rsc/iq-3k-bubble-gum.webp" id="prod-model">
+                    <h2>Price: PHP200<br>(Contains Nicotine)</h2>
+                    </div></li>
+                    <li><div id="product-box"><h1>Zetta Mango Ice Cream (5K Puffs)</h1>
+                        <img src="./rsc/wotofo-zetta-mango-ice-ceam.webp" id="prod-model">
+                        <h2>Price: PHP300<br>(Contains Nicotine)</h2>
+                        </div></li>
+                        <li><div id="product-box"><h1>Toha Yacult (5K Puffs)</h1>
+                            <img src="./rsc/toha-5k-yacult.webp" id="prod-model">
+                            <h2>Price: PHP300<br>(Contains Nicotine)</h2>
+                            </div></li>     
+        </ul>
+        </div>
+    </div>
+       <h1 id="prod-top">Tasty Top Sellers!</h1>
     <div id="container">
         <ul id="autoWidth" class="cs-hidden">
             <li class="item-a"> <div id="box">
                 <h1>Lychee Ice (5000 Puffs)</h1>
-                <img src="./rsc/toha-lychee.png" id="main-model">
+                <img src="./rsc/toha-lychee.webp" id="main-model">
                 <div id="details">
-                 <img src="./rsc/Toha.png" alt="Toha" width="100px"  style="height: auto;" id="model">
-                 <p>Enjoy the taste of Iced Lychee with small beast!</p>
+                 <img src="./rsc/Toha.webp" alt="Toha"  id="model">
+                 <p>Enjoy the taste of Iced Lychee with this small beast!</p>
                 </div>
                </div></li>
                <li class="item-a"> <div id="box">
                 <h1>Lychee Ice DrinkBar (6000 Puffs)</h1>
-                <img src="./rsc/toha-lychee-drinkbar.png" id="main-model">
+                <img src="./rsc/toha-lychee-drinkbar.webp" id="main-model">
                 <div id="details">
-                 <img src="./rsc/Toha.png" alt="Toha" width="100px"  style="height: auto;" id="model">
+                 <img src="./rsc/Toha.webp" alt="Toha"  id="model">
                  <p>Same tasty lychee taste now with 6000 Puffs!</p>
                 </div>
                </div></li>
                <li class="item-a"> <div id="box">
                 <h1>Blueberry Dragonfruit DrinkBar (6000 Puffs)</h1>
-                <img src="./rsc/toha-blueberry-dragon-fruit-drinkbar.jpg" id="main-model">
+                <img src="./rsc/toha-blueberry-dragon-fruit-drinkbar.webp" id="main-model">
                 <div id="details">
-                 <img src="./rsc/Toha.png" alt="Toha" width="100px"  style="height: auto;" id="model">
+                 <img src="./rsc/Toha.webp" alt="Toha"  id="model">
                  <p>Craving for blueberry ? or Dragon Fruit ? Why not both!</p>
                 </div>
                </div></li>
                <li class="item-a"> <div id="box">
                 <h1>Watermelon Ice DrinkBar (6000 Puffs)</h1>
-                <img src="./rsc/toha-watermelon-ice-drinkbar.jpg" id="main-model">
+                <img src="./rsc/toha-watermelon-ice-drinkbar.webp" id="main-model">
                 <div id="details">
-                 <img src="./rsc/Toha.png" alt="Toha" width="100px"  style="height: auto;" id="model">
+                 <img src="./rsc/Toha.webp" alt="Toha" id="model">
                  <p>Treat your tastebuds with icy sweet watermelon!</p>
                 </div>
                </div></li>
                <li class="item-a"> <div id="box">
                 <h1>Gummy Bear (5000 Puffs)</h1>
-                <img src="./rsc/wotofo-zetta-gummy-bear.jpg" id="main-model">
+                <img src="./rsc/wotofo-zetta-gummy-bear.webp" id="main-model">
                 <div id="details">
-                 <img src="./rsc/Wotofo.jpg" alt="Toha" width="200px"  style="height: auto;" id="model">
-                 <p style="margin-top: 10px;">One word : GUMMY BEARS!</p>
+                 <img src="./rsc/Wotofo.webp" alt="Toha"  id="model">
+                 <p style="margin-top: 10px;">Two words: GUMMY BEARS!</p>
                 </div>
                </div></li>
             </ul> 
   
     </div>
     <div id="store-location">
+        
         <h1>Our Location</h1>
         <div id="map-responsive">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.398314321003!2d120.97406521401402!3d14.633316880199159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b5c2b5312919%3A0x108f0c2e4c03f695!2s2932%20Dagupan%20Ext%2C%20Tondo%2C%20Manila%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1674121669292!5m2!1sen!2sph" 
@@ -72,6 +174,7 @@
         </div>
     </div>
     <footer id="footer">
+        <p>Contact us for more information or if you want to become a reseller <br>via our social media links below or through these numbers<br>+639176001261 - +639392299992</p>
         <ul>
             <li><a href="https://www.facebook.com/kriswinmeraquillo" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a><i class="fa-brands fa-square-instagram"></i></a></li>
