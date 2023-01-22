@@ -13,9 +13,63 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="./script/lightslider.js"></script>
     <script src="https://kit.fontawesome.com/0a80b60327.js" crossorigin="anonymous"></script>
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "112099455114773");
+        chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+  
+      <!-- Your SDK code -->
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v15.0'
+          });
+        };
+  
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+      </script>
     <title>Vape T.E.K | Tasty Disposable Puffs at Good Prices in Manila</title>
 </head>
 <body>
+    <!-- Messenger Chat Plugin Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "112099455114773");
+      chatbox.setAttribute("attribution", "biz_inbox");
+    </script>
+
+    <!-- Your SDK code -->
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          xfbml            : true,
+          version          : 'v15.0'
+        });
+      };
+
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    
     <div id="warning">
         <p>WARNING: This product contains nicotine. Nicotine is an addictive chemical.
             Only for adults. Anyone below the age of 21 is prohibited from buying e-cigarette.</p>
@@ -50,6 +104,7 @@
               </li>
        </ul>
     </div>
+   
     <h1 id="about-disposable-heading">What are disposable vapes?</h1>
     <div id="about-disposable">
         <section id="about-disposable-content"><p>Disposable vapes are electronic cigarette devices that are designed to be used once and then thrown away. 
@@ -182,5 +237,6 @@
         <p>&copy; 2023 Vape T.E.K. All Rights Reserved.</p>
     </footer>
     <script src="./script/script.js"></script>
+    
 </body>
 </html>
